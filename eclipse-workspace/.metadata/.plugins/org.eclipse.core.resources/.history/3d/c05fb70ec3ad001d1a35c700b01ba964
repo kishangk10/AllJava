@@ -1,0 +1,32 @@
+package dto;
+
+public class Patientdto {
+	private int id;
+	private String name;
+	private String bood_group;
+	private long PH_number;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getBood_group() {
+		return bood_group;
+	}
+	public void setBood_group(String bood_group) {
+		this.bood_group = bood_group;
+	}
+	public long getPH_number() {
+		return PH_number;
+	}
+	public void setPH_number(long pH_number) {
+		PH_number = pH_number;
+	}
+}

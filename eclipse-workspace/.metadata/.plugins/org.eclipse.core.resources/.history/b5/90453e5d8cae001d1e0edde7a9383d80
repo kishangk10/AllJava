@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="">
+<table>
+			<tr>
+				<td><label>Name</label></td>
+				<td><input type="text" name="cname"></td>
+			</tr>
+			<tr>
+				<td><label>Movie Name</label></td>
+				<td><input type="text" name="mname"></td>
+			</tr>
+			<tr>
+				<td><label>Number of Tickets</label></td>
+				<td><input type="number" name="tickets"></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Submit</button></td>
+				<td><button type="reset">Reset</button></td>
+			</tr>
+		</table>
+
+</form>
+
+</body>
+</html>

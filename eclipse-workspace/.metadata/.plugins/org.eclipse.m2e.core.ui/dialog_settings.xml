@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Kishan\eclipse-workspace\project.patient\src\main\webapp\insert.html"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\package.httpsql"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\project.webClass"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\project.practice"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\Project.jese8new\src\main\java\jese8new\Class.java"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\Servers"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\CJ_Int"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\HN_ManyToMany\src\main\java\ManyToMany\Driver.java"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\HN_ManyToOne"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\HN_OneToOne"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\HN_Map1\src\main\resources\META-INF\persistence.xml"/>
+			<item value="C:\Users\Kishan\eclipse-workspace\HN_FetchAllDetails"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

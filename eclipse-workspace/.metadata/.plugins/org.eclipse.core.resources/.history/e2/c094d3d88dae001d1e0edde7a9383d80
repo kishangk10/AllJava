@@ -1,0 +1,10 @@
+package dto;
+
+public class Booking_dto {
+	private int id;
+	private String cName;
+	private String mName;
+	private int no_of_Tickets;
+	private double amount;
+	private int seatNo;
+}

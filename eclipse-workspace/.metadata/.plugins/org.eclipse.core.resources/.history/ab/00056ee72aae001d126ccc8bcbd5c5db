@@ -1,0 +1,33 @@
+package dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import dto.Patientdto;
+
+public class Patientdao {
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("dev");
+	EntityManager entityManager = entityManagerFactory.createEntityManager();
+	EntityTransaction entityTransaction = entityManager.getTransaction();
+
+	public void insert(Patientdto patientdto) {
+		entityTransaction.begin();
+		entityManager.persist(patientdto);
+		entityTransaction.commit();
+	}
+	
+	public void update(int id,long ph) {
+		Patientdto patientdto=entityManager.find(Patientdto.class, id);
+		patientdto.setPH_Number(ph);
+		
+		if(patientdto != null) {
+		entityTransaction.begin();
+		entityManager.merge(patientdto);
+		entityTransaction.commit();
+		}else {
+			System.out.println("No data found with id "+ id);
+		}
+	}
+}

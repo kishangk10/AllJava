@@ -1,0 +1,36 @@
+package controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
+
+import dao.Book_Dao;
+import dto.Book_Dto;
+
+import java.io.File;
+
+public class Fileee1 extends HttpServlet {
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+//		super.doPost(req, resp);
+		Part p=req.getPart("pdf");
+		String filename=p.getSubmittedFileName();
+		
+		System.out.println(filename);
+		String path = getServletContext().getRealPath("")+"files";
+		System.out.println(path);
+		File file =new File(path);
+		p.write(path+file.separator+filename);
+		
+		Book_Dto book_Dto=new Book_Dto();
+		book_Dto.setPdf(filename);
+		
+		Book_Dao  book_Dao=new Book_Dao();
+		book_Dao.insert(book_Dto);
+	}
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="">
+<table>
+<tr>
+<td>
+Patient ID <input type="text" name="pid"><br>
+</td>
+</tr>
+<tr>
+<td>
+Patient Name <input type="text" name="pname"><br>
+</td>
+</tr>
+<tr>
+<td>
+Patient Blood Group <input type="text" name="pbg"><br>
+</td>
+</tr>
+<tr>
+<td>
+Patient PhoneNumber <input type="text" name="pnumber"><br>
+</td>
+</tr>
+</table>
+</form>
+
+
+
+</body>
+</html>

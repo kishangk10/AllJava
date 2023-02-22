@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="data" method="get" >
+		<!--[_self for same page] && [_blank for next tab] -->
+
+		<fieldset>
+			<legend style="font-size: 50px;">FORM</legend>
+			<table bgcolor="silver">
+				<tr>
+					<td><label for="nn" style="color: green">First Name</label></td>
+					<td><input type="text" id="nn" placeholder="First Name" name="fn">
+					</td>
+				</tr>
+				<tr>
+					<td><label for="mm" style="background-color: darkorchid;">Last
+							Name</label></td>
+					<td><input type="text" id="mm" placeholder="Last Name">
+					</td>
+				</tr>
+				<tr>
+					<td><label for="ll">Phone Number</label></td>
+					<td><input type="tel" id="ll" placeholder="1234567890">
+					</td>
+				</tr>
+
+				<tr>
+					<td><label for="kk"></label></td>
+					<td><input type="radio" id="kk" name="kk" value="male">Male
+						<input type="radio" id="kk" name="kk">Female <input
+						type="radio" id="kk" name="kk">Others</td>
+				</tr>
+
+				<tr>
+					<td><label for="pp">E-Male</label></td>
+					<td><input type="email" id="pp" placeholder="abc123@gmail.com">
+					</td>
+				</tr>
+				<tr>
+					<td><label for="ii">password</label></td>
+					<td><input type="password" id="ii" placeholder="***********">
+					</td>
+				</tr>
+
+				<tr>
+					<td><label for="uu">DOB</label></td>
+					<td><input type="date" id="uu"></td>
+				</tr>
+
+				<tr>
+					<td><label for="rr">Bikes</label></td>
+					<td><select name="rr" id="rr">
+							<option value=""></option>
+							<option value="rx 100">rx 100</option>
+							<option value="Bullet">Bullet</option>
+							<option value="xl100">xl100</option>
+							<option value="luno">luno</option>
+							<option value="dio">dio</option>
+							<option value="gt">gt</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td><label for="yy">sports</label></td>
+					<td><input type="checkbox" id="yy">cricket <input
+						type="checkbox" id="yy">kabaddi <input type="checkbox"
+						id="yy">football <input type="checkbox" id="yy">baseball
+					</td>
+				</tr>
+
+				<tr>
+					<td><label for="ee">choose a file</label></td>
+					<td><input type="file" id="ee"></td>
+				</tr>
+				<tr>
+					<td><label for="ff">select range</label></td>
+					<td><input type="range" id="ff"></td>
+				</tr>
+
+
+
+				<tr>
+					<td><label for="xx">Address</label></td>
+					<td><textarea name="" id="xx" cols="30" rows="10"
+							placeholder="qwertyuiopasdfghjklzxcvbnm"></textarea></td>
+				</tr>
+
+				<tr>
+					<td>
+						<button type="submit">Submit</button>
+						<button type="reset">Reset</button>
+						<button type="button">button</button>
+						<button type="menu">menu</button>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>
